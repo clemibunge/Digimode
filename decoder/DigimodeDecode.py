@@ -12,12 +12,12 @@ with open(filepath) as fp:
        try:
            line_float = round(float(line),1);
        except:
-           line_float = round(float("0"),1);
+           line_float = round(float("9"),1);
        #print(line_float);
        try:
            line_int = int(line_float);
        except:
-           line_int = int("0");
+           line_int = int("9");
        #print(line_int);
 
        if 1080 <= line_int <= 2020:
