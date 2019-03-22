@@ -17,7 +17,7 @@ with open(filepath) as fp:
        try:
            line_int = int(line_float);
        except:
-           line_int = int("9");
+           line_int = 9;
        #print(line_int);
 
        if 1080 <= line_int <= 2020:
